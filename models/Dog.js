@@ -24,14 +24,14 @@ Dog.init(
       allowNull: false,
     },
     size:{
-        type: DataTypes.STRING,
-        allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     available: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
     },
-    
+
     dog_id: {
       type: DataTypes.INTEGER,
       references: {

@@ -27,7 +27,7 @@ Cat.init(
       type: DataTypes.BOOLEAN,
       allowNull: false,
     },
-    
+
     cat_id: {
       type: DataTypes.INTEGER,
       references: {
