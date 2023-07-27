@@ -1,13 +1,15 @@
-// const User = require('./User');
-// const Gallery = require('./Gallery');
-// const Painting = require('./Painting');
+const sequelize = require('../config/connection');
+const seedCat = require('./catsData');
+const seedDog = require('./dogsData');
 
-// Gallery.hasMany(Painting, {
-//   foreignKey: 'gallery_id',
-// });
+const seedAll = async () => {
+  await sequelize.sync({ force: true });
 
-// Painting.belongsTo(Gallery, {
-//   foreignKey: 'gallery_id',
-// });
+  await seedCat();
 
-// module.exports = { User, Gallery, Painting };
+  await seedDog();
+
+  process.exit(0);
+};
+
+seedAll();

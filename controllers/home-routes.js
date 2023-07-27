@@ -1,5 +1,5 @@
 const router = require('express').Router();
-// const { Gallery, Painting } = require('../models');
+// const { Cat, Dog } = require('../models');
 
 
 
