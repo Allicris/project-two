@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lint": "npx eslint --fix \"**/*.js\"",
     "prepare": "husky install",
     "seed": "node seeds/index.js"
   },
@@ -24,7 +23,6 @@
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
-    "eslint": "^7.12.1",
     "husky": "^8.0.3"
   }
 }
