@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats and Dogs</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Look at all the good boys and girls!</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        {{#if loggedIn}}
+        <button id="logout" class="btn-no-style">Logout</button>
+        {{else}}
+        <a href="/login">Login</a>
+        {{/if}}
+        <a href="/cats">Cats</a>
+        <a href="/dogs">Dogs</a>
+    </nav>
+    <main>
+        <div class="titleCard">
+            <h2>Would you like to see the Cats? Or The Dogs?</h2>
+        </div>

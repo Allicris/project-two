@@ -1,15 +1,18 @@
-// const sequelize = require('../config/connection');
-// const seedCat = require('./catsData');
-// const seedDog = require('./dogsData');
+const sequelize = require('../config/connection');
+const seedCat = require('./catsData');
+const seedDog = require('./dogsData');
+const seedPets = require('./petsData');
 
-// // const seedAll = async () => {
-// //   await sequelize.sync({ force: true });
+const seedAll = async () => {
+  await sequelize.sync({ force: true });
 
-// //   await seedCat();
+  await seedCat();
 
-// //   await seedDog();
+  await seedDog();
 
-// //   process.exit(0);
-// // };
+  await seedPets ();
 
-// seedAll();
+  process.exit(0);
+};
+
+seedAll();

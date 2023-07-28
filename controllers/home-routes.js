@@ -1,22 +1,22 @@
 const router = require('express').Router();
-// const { Cat, Dog } = require('../models');
+const { Cat, Dog, Pets } = require('../models');
 
 
 
 // // GET all galleries for homepage
 // router.get('/', async (req, res) => {
 //   try {
-//     const dbGalleryData = await Gallery.findAll({
+//     const dbPetsData = await Pets.findAll({
 //       include: [
 //         {
-//           model: Painting,
+//           model: Pets,
 //           attributes: ['filename', 'description'],
 //         },
 //       ],
 //     });
 
-//     const galleries = dbGalleryData.map((gallery) =>
-//       gallery.get({ plain: true })
+//     const pets = dbPetsData.map((gallery) =>
+//       pets.get({ plain: true })
 //     );
 
 //     res.render('homepage', {
@@ -30,17 +30,17 @@ const router = require('express').Router();
 // });
 
 // // GET one gallery
-// router.get('/gallery/:id', async (req, res) => {
+// router.get('/pets/:id', async (req, res) => {
 //   // If the user is not logged in, redirect the user to the login page
 //   if (!req.session.loggedIn) {
 //     res.redirect('/login');
 //   } else {
 //     // If the user is logged in, allow them to view the gallery
 //     try {
-//       const dbGalleryData = await Gallery.findByPk(req.params.id, {
+//       const dbPetsData = await Pets.findByPk(req.params.id, {
 //         include: [
 //           {
-//             model: Painting,
+//             model: Pets,
 //             attributes: [
 //               'id',
 //               'title',
@@ -52,8 +52,8 @@ const router = require('express').Router();
 //           },
 //         ],
 //       });
-//       const gallery = dbGalleryData.get({ plain: true });
-//       res.render('gallery', { gallery, loggedIn: req.session.loggedIn });
+//       const pets = dbPetsData.get({ plain: true });
+//       res.render('pets', { pets, loggedIn: req.session.loggedIn });
 //     } catch (err) {
 //       console.log(err);
 //       res.status(500).json(err);
@@ -61,7 +61,26 @@ const router = require('express').Router();
 //   }
 // });
 
-// // GET one painting
+// // GET one Dog
+// router.get('/dogs/:id', async (req, res) => {
+//   // If the user is not logged in, redirect the user to the login page
+//   if (!req.session.loggedIn) {
+//     res.redirect('/login');
+//   } else {
+//     // If the user is logged in, allow them to view the painting
+//     try {
+//       const dbDogData = await Dog.findByPk(req.params.id);
+
+//       const painting = dbPaintingData.get({ plain: true });
+
+//       res.render('painting', { painting, loggedIn: req.session.loggedIn });
+//     } catch (err) {
+//       console.log(err);
+//       res.status(500).json(err);
+//     }
+//   }
+// });
+// // GET one Cat
 // router.get('/painting/:id', async (req, res) => {
 //   // If the user is not logged in, redirect the user to the login page
 //   if (!req.session.loggedIn) {

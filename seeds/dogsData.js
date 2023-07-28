@@ -2,12 +2,14 @@ const { Dog } = require('../models');
 
 const dogsData = [
   {
-
     name: 'Abby',
     age: '2 yo',
     breed: 'French Bulldog',
     size: 'small',
-    available: 'true'
+    available: 'true',
+    filename: 'placeherepictureofdog.jpg',
+    description:
+      'here is a description.'
   },
   {
 
@@ -15,7 +17,10 @@ const dogsData = [
     age: '1 yo',
     breed: 'Labrador Retriever',
     size: 'medium',
-    available: 'true'
+    available: 'true',
+    filename: 'placeherepictureofdog.jpg',
+    description:
+      'here is a description.'
   },
   {
 
@@ -23,7 +28,10 @@ const dogsData = [
     age: '5 months',
     breed: 'Alaskan Malamute',
     size: 'large',
-    available: 'true'
+    available: 'true',
+    filename: 'placeherepictureofdog.jpg',
+    description:
+      'here is a description.'
   },
   {
 
@@ -31,7 +39,10 @@ const dogsData = [
     age: '9 months',
     breed: 'Cavalier King Charles Spaniel',
     size: 'small',
-    available: 'true'
+    available: 'true',
+    filename: 'placeherepictureofdog.jpg',
+    description:
+      'here is a description.'
   },
 ];
 
