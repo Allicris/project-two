@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "prepare": "husky install",
     "seed": "node seeds/index.js"
   },
   "author": "",
@@ -23,6 +22,6 @@
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+
   }
 }

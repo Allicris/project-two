@@ -14,15 +14,23 @@
     </header>
     <nav>
         <a href="/">Home</a>
-        {{#if loggedIn}}
+        {{!-- {{#if loggedIn}}
         <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
         <a href="/login">Login</a>
-        {{/if}}
-        <a href="/cats">Cats</a>
-        <a href="/dogs">Dogs</a>
+        {{/if}} --}}
+        <a href="/pets/2">Dogs</a>
+        <a href="/pets/1">Cats</a>
+        {{!-- <a href="/animals">Animals</a> --}}
     </nav>
-    <main>
-        <div class="titleCard">
-            <h2>Would you like to see the Cats? Or The Dogs?</h2>
-        </div>
+   <main>
+    <aside>
+      <h2>Which would you like to see?</h2>
+    </aside>
+    <div class="gallery">
+      {{{body}}}
+    </div>
+  </main>
+</body>
+
+</html>
