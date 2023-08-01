@@ -1,4 +1,4 @@
-//const User = require('./User');
+const User = require('./User');
 //const Cat = require('./Cat');
 //const Dog = require('./Dog');
 const Animals = require('./Animals');
@@ -13,4 +13,4 @@ Animals.belongsTo(Pets, {
 });
 
 //module.exports = { User, Pets, Cat, Dog };
-module.exports = { Pets, Animals };
+module.exports = { User, Pets, Animals };
