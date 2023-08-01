@@ -4,17 +4,17 @@ const petsData = [
   {
     name: 'Cats',
     title: 'checkout our cats',
-    filename: 'placeherepictureofcat.jpg',
+    filename: 'Cats_Many_oets_page.jpg',
     description:
-          'here is a description.'
+          'Beautiful furry friends.'
 
   },
   {
     name: 'Dogs',
     title: 'checkout our dogs',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'dogs-many-pets-page.jpg',
     description:
-          'here is a description.'
+          'dogs are better than humanZ'
   }
 ];
 

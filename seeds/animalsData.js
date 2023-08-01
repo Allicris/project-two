@@ -4,24 +4,23 @@ const animalData = [
   {
     name: 'Tom',
     age: '2 yr',
-    breed: 'British Longhair',
+    breed: 'British shorthair',
     size: 'medium',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'brittish-short_hair_cat.jpeg',
     description:
-      'here is a description.',
+      'Tom is amazing cat. The British Shorthair is the pedigreed version of the traditional British domestic cat, with a distinctively stocky body, thick coat, and broad face. The most familiar colour variant is the "British Blue", with a solid grey-blue coat, pineapple eyes, and a medium-sized tail.',
     pets_id: 1
   },
   {
-
     name: 'Kitty',
     age: '1 yr',
     breed: 'Bengal',
     size: 'medium',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'bengal-cat.jpeg',
     description:
-      'here is a description.',
+      '',
     pets_id: 1
   },
   {
@@ -31,9 +30,9 @@ const animalData = [
     breed: 'American Wirehair',
     size: 'medium',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'american-wirehair-cat.webp',
     description:
-      'here is a description.',
+      'The American Wirehair is a breed of domestic cat originating in upstate New York, which is characterised by its wiry fur and crinkly whiskers caused by a genetic mutation. As of 2017, though the breed is well-known, it is ranked as the most rare of the 41 Cat Fanciers.',
     pets_id: 1
   },
   {
@@ -43,9 +42,9 @@ const animalData = [
     breed: 'Arabian Mau',
     size: 'medium',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'mau-egyptien-cat.jpeg',
     description:
-      'here is a description.',
+      'Egyptian Maus are a small to medium-sized short-haired cat breed. They are one of the few naturally spotted breeds of domesticated cat. The spots of the Mau occur on only the tips of the hairs of its coat. It is considered a rare breed',
     pets_id: 1
   },
   {
@@ -54,7 +53,7 @@ const animalData = [
     breed: 'French Bulldog',
     size: 'small',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'French-bulldog.jpeg',
     description:
       'here is a description.',
     pets_id: 2
@@ -66,7 +65,7 @@ const animalData = [
     breed: 'Labrador Retriever',
     size: 'medium',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'Labradoe Retriver.jpeg',
     description:
       'here is a description.',
     pets_id: 2
@@ -78,7 +77,7 @@ const animalData = [
     breed: 'Alaskan Malamute',
     size: 'large',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'Alaskan Malamute.jpg',
     description:
       'here is a description.',
     pets_id: 2
@@ -90,7 +89,7 @@ const animalData = [
     breed: 'Cavalier King Charles Spaniel',
     size: 'small',
     available: 'true',
-    filename: 'placeherepictureofdog.jpg',
+    filename: 'cavalier-king-charles.jpeg',
     description:
       'here is a description.',
     pets_id: 2
