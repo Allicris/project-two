@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cats and Dogs</title>
+    <link rel="stylesheet" type="text/css" href="/css/jass.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+  
+
 </head>
 
 <body>
@@ -14,11 +17,7 @@
     </header>
     <nav>
         <a href="/">Home</a>
-        {{#if loggedIn}}
-        <button id="logout" class="btn-no-style">Logout</button>
-        {{else}}
         <a href="/login">Login</a>
-        {{/if}}
         <a href="/pets/2">Dogs</a>
         <a href="/pets/1">Cats</a>
         {{!-- <a href="/animals">Animals</a> --}}

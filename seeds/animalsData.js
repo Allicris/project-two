@@ -7,9 +7,9 @@ const animalData = [
     breed: 'British shorthair',
     size: 'medium',
     available: 'true',
-    filename: 'british-cat.jpg',
+    filename: '/cats/british-cat.jpg',
     description:
-      'Tom is amazing cat. The British Shorthair is the pedigreed version of the traditional British domestic cat, with a distinctively stocky body, thick coat, and broad face. The most familiar colour variant is the "British Blue", with a solid grey-blue coat, pineapple eyes, and a medium-sized tail.',
+      'Tom is amazing cat.',
     pets_id: 1
   },
   {
@@ -18,7 +18,7 @@ const animalData = [
     breed: 'Bengal',
     size: 'medium',
     available: 'true',
-    filename: 'bengal-cat.jpg',
+    filename: '/cats/bengal-cat.jpg',
     description:
       '',
     pets_id: 1
@@ -30,7 +30,7 @@ const animalData = [
     breed: 'American Wirehair',
     size: 'medium',
     available: 'true',
-    filename: 'american-cat-1.jpg',
+    filename: '/cats/american-cat-1.jpg',
     description:
       'The American Wirehair is a breed of domestic cat originating in upstate New York',
     pets_id: 1
@@ -42,7 +42,7 @@ const animalData = [
     breed: 'Arabian Mau',
     size: 'medium',
     available: 'true',
-    filename: 'mau-cat.jpg',
+    filename: '/cats/mau-cat.jpg',
     description:
       'Egyptian Maus are a small to medium-sized. They are one of the few naturally spotted breeds of domesticated cat.',
     pets_id: 1
@@ -53,7 +53,7 @@ const animalData = [
     breed: 'French Bulldog',
     size: 'small',
     available: 'true',
-    filename: 'French-bulldog.jpeg',
+    filename: '/dogs/French-bulldog.jpeg',
     description:
       'here is a description.',
     pets_id: 2
@@ -65,7 +65,7 @@ const animalData = [
     breed: 'Labrador Retriever',
     size: 'medium',
     available: 'true',
-    filename: 'Labradoe Retriver.jpeg',
+    filename: '/dogs/Labrador-Retriever.jpeg',
     description:
       'here is a description.',
     pets_id: 2
@@ -77,7 +77,7 @@ const animalData = [
     breed: 'Alaskan Malamute',
     size: 'large',
     available: 'true',
-    filename: 'Alaskan Malamute.jpg',
+    filename: '/dogs/Alaskan-Malamute.jpg',
     description:
       'here is a description.',
     pets_id: 2
@@ -89,7 +89,7 @@ const animalData = [
     breed: 'Cavalier King Charles Spaniel',
     size: 'small',
     available: 'true',
-    filename: 'cavalier-king-charles.jpeg',
+    filename: '/dogs/cavalier-king-charles.jpeg',
     description:
       'here is a description.',
     pets_id: 2
