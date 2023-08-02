@@ -65,7 +65,7 @@ const animalData = [
     breed: 'Labrador Retriever',
     size: 'medium',
     available: 'true',
-    filename: '/animals/Labrador-Retriever.jpeg',
+    filename: '/animals/Labrador Retriever.jpeg',
     description:
       'here is a description.',
     pets_id: 2
@@ -77,7 +77,7 @@ const animalData = [
     breed: 'Alaskan Malamute',
     size: 'large',
     available: 'true',
-    filename: '/animals/Alaskan-Malamute.jpg',
+    filename: '/animals/Alaskan Malamute.jpg',
     description:
       'here is a description.',
     pets_id: 2
