@@ -13,6 +13,7 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
       document.location.replace('/');
+      console.log('You are Logged in, login.js line 16')
     } else {
       alert('Failed to log in.');
     }
