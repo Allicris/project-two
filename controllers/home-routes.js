@@ -62,6 +62,7 @@ router.get('/pets/:id', withAuth, async (req, res) => {
     const pets = dbPetsData.get({ plain: true });
     res.render('pets', {
       pets,
+      loggedIn: req.session.loggedIn,
       // We are not incrementing the 'countVisit' session variable here
       // but simply sending over the current 'countVisit' session variable to be rendered
       countVisit: req.session.countVisit,
@@ -81,6 +82,7 @@ router.get('/animals/:id', withAuth, async (req, res) => {
 
     res.render('animals', {
       animals,
+       loggedIn: req.session.loggedIn,
       // We are not incrementing the 'countVisit' session variable here
       // but simply sending over the current 'countVisit' session variable to be rendered
       countVisit: req.session.countVisit,
