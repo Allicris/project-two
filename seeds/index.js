@@ -6,8 +6,6 @@ const seedPets = require('./petsData');
 const seedAll = async () => {
   await sequelize.sync({ force: true });
 
-  //await seedCat();
-
   await seedPets ();
 
   await seedAnimals();
