@@ -7,9 +7,9 @@ const animalData = [
     breed: 'British shorthair',
     size: 'medium',
     available: 'true',
-    filename: 'british-cat.jpg',
+    filename: 'animals/british-cat.jpg',
     description:
-      'Tom is amazing cat.',
+      'Tom is amazing cat.PERSONALITY: Affectionate, easy-going, and calm.',
     pets_id: 1
   },
   {
@@ -18,9 +18,9 @@ const animalData = [
     breed: 'Bengal',
     size: 'medium',
     available: 'true',
-    filename: 'bengal-cat.jpg',
+    filename: 'animals/bengal-cat.jpg',
     description:
-      '',
+      'Bengal cats are beautiful, wild-looking, and smart cats.',
     pets_id: 1
   },
   {
@@ -30,7 +30,7 @@ const animalData = [
     breed: 'American Wirehair',
     size: 'medium',
     available: 'true',
-    filename: 'american-cat-1.jpg',
+    filename: 'animals/american-cat-1.jpg',
     description:
       'The American Wirehair is a breed of domestic cat originating in upstate New York',
     pets_id: 1
@@ -42,7 +42,7 @@ const animalData = [
     breed: 'Arabian Mau',
     size: 'medium',
     available: 'true',
-    filename: 'mau-cat.jpg',
+    filename: 'animals/mau-cat.jpg',
     description:
       'Egyptian Maus are a small to medium-sized. They are one of the few naturally spotted breeds of domesticated cat.',
     pets_id: 1
@@ -53,9 +53,9 @@ const animalData = [
     breed: 'French Bulldog',
     size: 'small',
     available: 'true',
-    filename: 'French-bulldog.jpeg',
+    filename: '/animals/French-bulldog.jpeg',
     description:
-      'here is a description.',
+      'This breed is lively, lovable, and playful. ',
     pets_id: 2
   },
   {
@@ -65,7 +65,7 @@ const animalData = [
     breed: 'Labrador Retriever',
     size: 'medium',
     available: 'true',
-    filename: 'Labradoe Retriver.jpeg',
+    filename: 'animals/Labrador-Retriver.jpeg',
     description:
       'here is a description.',
     pets_id: 2
@@ -77,9 +77,9 @@ const animalData = [
     breed: 'Alaskan Malamute',
     size: 'large',
     available: 'true',
-    filename: 'Alaskan Malamute.jpg',
+    filename: 'animals/Alaskan-Malamute.jpg',
     description:
-      'here is a description.',
+      'Labs are known for their intelligence, fine character, and good temperament.',
     pets_id: 2
   },
   {
@@ -89,9 +89,9 @@ const animalData = [
     breed: 'Cavalier King Charles Spaniel',
     size: 'small',
     available: 'true',
-    filename: 'cavalier-king-charles.jpeg',
+    filename: 'animals/cavalier-king-charles.jpeg',
     description:
-      'here is a description.',
+      'Playful, affectionate, patient, graceful, sociable, gentle',
     pets_id: 2
   },
 ];
