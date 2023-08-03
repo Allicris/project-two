@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Animals, Pets } = require('../models');
+const withAuth = require('../utils/auth');
 
 // GET all Pets for homepage (cat and dog single group)
 router.get('/', async (req, res) => {
@@ -38,7 +39,7 @@ router.get('/', async (req, res) => {
 });
 
 // GET all the cats or dogs depending on which pet card was clicked
-router.get('/pets/:id', async (req, res) => {
+router.get('/pets/:id', withAuth, async (req, res) => {
   try {
     const dbPetsData = await Pets.findByPk(req.params.id, {
       include: [
