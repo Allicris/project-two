@@ -67,7 +67,7 @@ const animalData = [
     available: 'true',
     filename: '/animals/Labrador-Retriever.jpeg',
     description:
-      'here is a description.',
+      'Labs are known for their intelligence, fine character, and good temperament.',
     pets_id: 2
   },
   {
@@ -79,7 +79,7 @@ const animalData = [
     available: 'true',
     filename: '/animals/Alaskan-Malamute.jpg',
     description:
-      'Labs are known for their intelligence, fine character, and good temperament.',
+      'Friendly, loyal, playful, affectionate, bright, courageous',
     pets_id: 2
   },
   {
