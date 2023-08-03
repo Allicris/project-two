@@ -1,5 +1,4 @@
 const sequelize = require('../config/connection');
-//const seedCat = require('./catsData');
 const seedAnimals = require('./animalsData');
 const seedPets = require('./petsData');
 
