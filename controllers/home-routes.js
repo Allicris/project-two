@@ -73,7 +73,7 @@ router.get('/pets/:id', withAuth, async (req, res) => {
 });
 
 // GET one animal that has been clicked
-router.get('/animals/:id', async (req, res) => {
+router.get('/animals/:id', withAuth, async (req, res) => {
   try {
     const dbAnimalsData = await Animals.findByPk(req.params.id);
 
