@@ -9,8 +9,8 @@ This Interactive Full-Stack Project web application has been purposed towards pe
 - [Usage Instructions](#usage-instructions)
 - [Built With](#built-with)
 - [Solution URL](#solution-url)
-- [Walkthrough](#walkthrough-video)
 - [Screenshots](#screenshots)
+- [Walkthrough](#walkthrough-gif)
 - [Continued Development](#continued-development)
 - [Team Resources](#team-resources)
 - [Authors](#authors)
@@ -90,7 +90,7 @@ This must be executed before launching the application
 
 
 ## Solution URL:
-Solution URL Link: http://access-cal.herokuapp.com/
+Solution URL Link: (https://project-two-20323fc10aa2.herokuapp.com/)
 
 
 ## Screenshots:
@@ -105,25 +105,22 @@ Solution URL Link: http://access-cal.herokuapp.com/
 
 
 ### Figure 3. Cat's landing page
-![Cats page]![Screen Shot 2023-08-03 at 9 24 25 PM](https://github.com/Allicris/project-two/assets/130412307/57708156-d1d6-4827-a58b-d34b3d57cb80)
-()
+
+![Cats page]![Screen Shot 2023-08-03 at 9 24 25 PM](https://github.com/Allicris/project-two/assets/130412307/57708156-d1d6-4827-a58b-d34b3d57cb80))
 
 ### Figure 4. Cat's individual card
-![Cats card![Screen Shot 2023-08-03 at 9 24 36 PM](https://github.com/Allicris/project-two/assets/130412307/7d93db12-cd6d-49ab-b8d6-e4fddbbd9fff)
-]( )
+![Cats card!][Screen Shot 2023-08-03 at 9 24 36 PM](https://github.com/Allicris/project-two/assets/130412307/7d93db12-cd6d-49ab-b8d6-e4fddbbd9fff)
+)
 
 ### Figure 5. Dog's landing page
-![Dogs page]( ![Screen Shot 2023-08-03 at 9 24 07 PM](https://github.com/Allicris/project-two/assets/130412307/4e40904a-bca2-4d99-b5f9-e6b957468144)
+![Dogs page!][Screen Shot 2023-08-03 at 9 24 07 PM](https://github.com/Allicris/project-two/assets/130412307/4e40904a-bca2-4d99-b5f9-e6b957468144)
 )
 
 ### Figure 6. Dog's landing page
-![Dogs page]( ![Screen Shot 2023-08-03 at 9 24 17 PM](https://github.com/Allicris/project-two/assets/130412307/dbbeff97-4e61-44e0-b442-45f6601c3c5b)
+![Dogs page](![Screen Shot 2023-08-03 at 9 24 17 PM](https://github.com/Allicris/project-two/assets/130412307/dbbeff97-4e61-44e0-b442-45f6601c3c5b)
 
 ### Gif 
-)![Untitled design (1)](https://github.com/Allicris/project-two/assets/130412307/9bb5b91e-edec-4d6c-846b-7574afdcbd5d)
-
-
-
+![Untitled design (1)](https://github.com/Allicris/project-two/assets/130412307/9bb5b91e-edec-4d6c-846b-7574afdcbd5d)
 
 
 ## Continued Development:
