@@ -108,7 +108,7 @@ Solution URL Link: (https://project-two-20323fc10aa2.herokuapp.com/)
 ![Screen Shot 2023-08-03 at 9 24 25 PM](https://github.com/Allicris/project-two/assets/130412307/6f045acf-f421-40d9-a659-7f6b01ff1846)
 
 
-### Figure 4. Cat's individual card
+### Figure 4. Cat's individual card page
 ![Screen Shot 2023-08-03 at 9 24 36 PM](https://github.com/Allicris/project-two/assets/130412307/3bb882a5-5410-4903-948a-e9de785cd293)
 
 
@@ -117,7 +117,7 @@ Solution URL Link: (https://project-two-20323fc10aa2.herokuapp.com/)
 
 
 
-### Figure 6. Dog's landing page
+### Figure 6. Dog's individual card page
 ![Screen Shot 2023-08-03 at 9 24 17 PM](https://github.com/Allicris/project-two/assets/130412307/7e99fd15-cde8-46a9-9f5d-411768e47cc0)
 
 
@@ -138,6 +138,6 @@ Solution URL Link: (https://project-two-20323fc10aa2.herokuapp.com/)
 
 ## Authors :
 1. Wynter Anne Mary
-2. Erbe-maher Maureen
+2. Erbe-Maher Maureen
 3. Mitchell Ryan
 4. Serrano Allison
