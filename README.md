@@ -95,29 +95,32 @@ Solution URL Link: (https://project-two-20323fc10aa2.herokuapp.com/)
 
 ## Screenshots:
 ### Figure 1. Landing Page
-![Landing Page]( ![Screen Shot 2023-08-03 at 9 22 22 PM](https://github.com/Allicris/project-two/assets/130412307/a5e23f1a-6d5f-43eb-aa38-d8ab2a1a78e2)
-)
+![Screen Shot 2023-08-03 at 9 22 22 PM](https://github.com/Allicris/project-two/assets/130412307/79b6dbbb-32b5-4d08-b460-b88964ebb38b)
+
 
 
 ### Figure 2. Sign in/Sign Up page
-![Sign in or signt up page ](![Screen Shot 2023-08-03 at 9 23 20 PM](https://github.com/Allicris/project-two/assets/130412307/18c17756-9ba3-4a6a-adc6-8bed6eb84bb4)
-)
+![Screen Shot 2023-08-03 at 9 23 20 PM](https://github.com/Allicris/project-two/assets/130412307/17255275-1694-4cf5-bc7d-ec8012eee9cf)
+
 
 
 ### Figure 3. Cat's landing page
+![Screen Shot 2023-08-03 at 9 24 25 PM](https://github.com/Allicris/project-two/assets/130412307/6f045acf-f421-40d9-a659-7f6b01ff1846)
 
-![Cats page]![Screen Shot 2023-08-03 at 9 24 25 PM](https://github.com/Allicris/project-two/assets/130412307/57708156-d1d6-4827-a58b-d34b3d57cb80))
 
 ### Figure 4. Cat's individual card
-![Cats card!][Screen Shot 2023-08-03 at 9 24 36 PM](https://github.com/Allicris/project-two/assets/130412307/7d93db12-cd6d-49ab-b8d6-e4fddbbd9fff)
-)
+![Screen Shot 2023-08-03 at 9 24 36 PM](https://github.com/Allicris/project-two/assets/130412307/3bb882a5-5410-4903-948a-e9de785cd293)
+
 
 ### Figure 5. Dog's landing page
-![Dogs page!][Screen Shot 2023-08-03 at 9 24 07 PM](https://github.com/Allicris/project-two/assets/130412307/4e40904a-bca2-4d99-b5f9-e6b957468144)
-)
+![Screen Shot 2023-08-03 at 9 24 07 PM](https://github.com/Allicris/project-two/assets/130412307/df25cfe2-3890-486d-87a4-ba5ab6f71285)
+
+
 
 ### Figure 6. Dog's landing page
-![Dogs page](![Screen Shot 2023-08-03 at 9 24 17 PM](https://github.com/Allicris/project-two/assets/130412307/dbbeff97-4e61-44e0-b442-45f6601c3c5b)
+![Screen Shot 2023-08-03 at 9 24 17 PM](https://github.com/Allicris/project-two/assets/130412307/7e99fd15-cde8-46a9-9f5d-411768e47cc0)
+
+
 
 ### Gif 
 ![Untitled design (1)](https://github.com/Allicris/project-two/assets/130412307/9bb5b91e-edec-4d6c-846b-7574afdcbd5d)
@@ -130,7 +133,7 @@ Solution URL Link: (https://project-two-20323fc10aa2.herokuapp.com/)
 
 ## Team Resources: 
 
-1. Heroku: [Application link]()
+1. Heroku: [Application link](https://project-two-20323fc10aa2.herokuapp.com/)
 2. GitHub: [Repo link](https://github.com/Allicris/project-two.git)
 
 ## Authors :
