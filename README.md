@@ -38,7 +38,7 @@ PRE-Requisites:
 
 ### Database setup
 This must be executed before launching the application
-1. Log into your MySQL/MariaDB server.
+1. Log into your MySQL server.
 2. Execute the following command:
 ```md
     mysql> source path_to_schema.sql/schema.sql
