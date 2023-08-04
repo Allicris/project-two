@@ -41,13 +41,27 @@
     flex-grow: 1;
   }
   
-  aside {
+  
+  @media screen and  (max-width: 920px) {
+    aside{ 
+    
+    flex: none;
+    background-color: var(--tertiary);
+    padding: 80px;
+    text-align: left;
+    color: var(--light);
+    width: 100%;
+    }
+  }
+
+  aside{ 
     flex: 0;
     background-color: var(--tertiary);
     padding: 80px;
     text-align: left;
     color: var(--light);
-  }
+
+    }
   
   nav {
     display: flex;
@@ -160,4 +174,17 @@
     align-content: flex-start;
     align-items: center;
   }
-  
+
+  footer {
+  padding: auto;
+  text-align: left;
+  font-weight: bold;
+  }
+  li {
+    padding: 5px;
+    list-style-type: none;
+  }
+  footer h4{
+    padding: 5px;
+    padding-left: 10px;
+  }

@@ -29,7 +29,7 @@ Animals.init(
       allowNull: false,
     },
     available: {
-      type: DataTypes.BOOLEAN,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     filename: {
