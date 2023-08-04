@@ -95,24 +95,35 @@ Solution URL Link: http://access-cal.herokuapp.com/
 
 ## Screenshots:
 ### Figure 1. Landing Page
-![Landing Page]()
+![Landing Page]( ![Screen Shot 2023-08-03 at 9 22 22 PM](https://github.com/Allicris/project-two/assets/130412307/a5e23f1a-6d5f-43eb-aa38-d8ab2a1a78e2)
+)
 
 
 ### Figure 2. Sign in/Sign Up page
-![Sign in or signt up page ]()
+![Sign in or signt up page ](![Screen Shot 2023-08-03 at 9 23 20 PM](https://github.com/Allicris/project-two/assets/130412307/18c17756-9ba3-4a6a-adc6-8bed6eb84bb4)
+)
 
 
 ### Figure 3. Cat's landing page
-![Cats page]()
+![Cats page]![Screen Shot 2023-08-03 at 9 24 25 PM](https://github.com/Allicris/project-two/assets/130412307/57708156-d1d6-4827-a58b-d34b3d57cb80)
+()
 
 ### Figure 4. Cat's individual card
-![Cats card]()
+![Cats card![Screen Shot 2023-08-03 at 9 24 36 PM](https://github.com/Allicris/project-two/assets/130412307/7d93db12-cd6d-49ab-b8d6-e4fddbbd9fff)
+]( )
 
 ### Figure 5. Dog's landing page
-![Dogs page]()
+![Dogs page]( ![Screen Shot 2023-08-03 at 9 24 07 PM](https://github.com/Allicris/project-two/assets/130412307/4e40904a-bca2-4d99-b5f9-e6b957468144)
+)
 
 ### Figure 6. Dog's landing page
-![Dogs page]()
+![Dogs page]( ![Screen Shot 2023-08-03 at 9 24 17 PM](https://github.com/Allicris/project-two/assets/130412307/dbbeff97-4e61-44e0-b442-45f6601c3c5b)
+
+### Gif 
+)![Untitled design (1)](https://github.com/Allicris/project-two/assets/130412307/9bb5b91e-edec-4d6c-846b-7574afdcbd5d)
+
+
+
 
 
 ## Continued Development:
@@ -126,8 +137,7 @@ Solution URL Link: http://access-cal.herokuapp.com/
 2. GitHub: [Repo link](https://github.com/Allicris/project-two.git)
 
 ## Authors :
-
-Wynter Anne Mary
-Erbe-maher Maureen
-Mitchell Ryan
-Serrano Allison
+1. Wynter Anne Mary
+2. Erbe-maher Maureen
+3. Mitchell Ryan
+4. Serrano Allison
