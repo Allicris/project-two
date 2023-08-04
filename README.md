@@ -33,7 +33,7 @@ I WANT to see traffic of customers visiting website and control data that is dis
 
 PRE-Requisites: 
 - you must have node.js version 16.* installed on your computer prior to proceeding
-- you must have MySQL/MariaDB installed on your computer prior to proceeding
+- you must have MySQL installed on your computer prior to proceeding
 
 
 ### Database setup
