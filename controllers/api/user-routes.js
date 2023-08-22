@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User, Animals } = require('../../models');
 
 // CREATE new user
  router.post('/', async (req, res) => {
@@ -69,5 +69,26 @@ router.post('/login', async (req, res) => {
      res.status(404).end();
    }
  });
+
+ //User create pet
+ router.post('/create', async (req,res) => {
+  try {
+    const newPet = await Animals
+    .bulkCreate([{
+      name: req.body.name,
+      age: req.body.age,
+      breed: req.body.breed,
+      size: req.body.size,
+      available: req.body.available,
+      filename: req.body.image,
+      description: req.body.description,
+      pets_id: req.body.pets_id
+    }])
+    res.status(200).json('New Pet Created!', res);
+    return newPet
+  } catch (err) {
+    res.json(err)
+  }
+ })
 
 module.exports = router;

@@ -65,7 +65,6 @@ router.get('/pets/:id', withAuth, async (req, res) => {
       loggedIn: req.session.loggedIn,
       // We are not incrementing the 'countVisit' session variable here
       // but simply sending over the current 'countVisit' session variable to be rendered
-      countVisit: req.session.countVisit,
     });
   } catch (err) {
     console.log(err);
@@ -85,7 +84,6 @@ router.get('/animals/:id', withAuth, async (req, res) => {
        loggedIn: req.session.loggedIn,
       // We are not incrementing the 'countVisit' session variable here
       // but simply sending over the current 'countVisit' session variable to be rendered
-      countVisit: req.session.countVisit,
     });
   } catch (err) {
     console.log(err);
