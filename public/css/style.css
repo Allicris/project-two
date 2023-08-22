@@ -40,6 +40,10 @@
     flex-wrap: wrap;
     flex-grow: 1;
   }
+
+  footer {
+    background-color: var(--primary);
+  }
   
   
   @media screen and  (max-width: 920px) {
