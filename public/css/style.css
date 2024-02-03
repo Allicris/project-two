@@ -16,7 +16,7 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    background-color: var(--quatrinary);
+    background-color: var(--tertiary);
   }
   
   a {
@@ -39,6 +39,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+  }
+
+  footer {
+    background-color: var(--primary);
   }
   
   
