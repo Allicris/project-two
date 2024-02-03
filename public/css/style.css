@@ -1,11 +1,11 @@
 :root {
-    --primary:  #ffdca2;     /* Light peach */
-    --secondary: #ffa15f;    /* Coral */
-    --tertiary: #5cbdb9;     /* Teal */
-    --quatrinary: #f2d53c;   /* Yellow */
-    --light: #ffffff;        /* White */
-    --dark: #333333;         /* Dark gray */
-    --error: #e42e01;        /* Red */
+    --primary:  #ffdca2;     
+    --secondary: #ffa15f;    
+    --tertiary: #5cbdb9;     
+    --quatrinary: #f2d53c;   
+    --light: #ffffff;        
+    --dark: #333333;         
+    --error: #e42e01;        
     --border-radius: 0.3rem;
   }
   
@@ -120,7 +120,6 @@
     font-weight: bold;
   }
   
-  /* CARDS */
   .card {
     margin: 20px;
     flex: 0 1 300px;
@@ -167,7 +166,6 @@
     padding: 30px;
   }
   
-  /* LAYOUT */
   .container {
     display: flex;
     flex-flow: column wrap;
